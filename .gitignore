@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+
+# Private Zugangsdaten, bleiben nur lokal
+GoogleService-Info.plist
+Secrets.swift
+.env
+*.env
+
+# Zertifikate und Profile
+*.p12
+*.cer
+*.mobileprovision
+
+# Alte Dateien vom Umbau
+_alt/
